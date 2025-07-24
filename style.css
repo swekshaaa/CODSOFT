@@ -1,0 +1,141 @@
+
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', sans-serif;
+  background-color: #fff0f5;
+  color: #444;
+}
+
+
+header {
+  background-color: #d3a8b3;
+  text-align: center;
+  padding: 2rem 1rem;
+
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #a41a4d;
+}
+
+header p {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.about {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem;
+  background-color: #ffc0cb;
+}
+
+.about img {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 2rem;
+  border: 4px dashed #ffb6c1;
+}
+
+.about h2 {
+
+  color: #a41a4d;
+}
+
+
+.skills {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffe4e1;
+}
+
+.skills h2 {
+  color: #a41a4d;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.skill-circle{
+  background-color: #fcb6e2;
+  color: #660033;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+.skill-circle:hover{
+  transform: scale(1.05) ;
+  background-color: #ffb6c1;
+}
+
+.projects {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fce4ec;
+}
+
+.project-card {
+  text-align: center;
+  background: #fff;
+  border: 2px solid #f8bbd0;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.project-card img {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+
+.resume {
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffebf0;
+}
+
+.resume .btn {
+  padding: 10px 20px;
+  background: #ff69b4;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+
+.contact {
+  padding: 2rem;
+  background-color: #fff0f5;
+}
+
+.contact h2 {
+  color: #c71585;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ffc0cb;
+  border-top: 3px solid #ff69b4;
+  color: #555;
+}
